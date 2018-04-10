@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MSCustomEnchants:jar">
+    <output-path>$PROJECT_DIR$/../../server/plugins</output-path>
+    <root id="archive" name="MSCustomEnchants.jar">
+      <element id="module-output" name="MSCustomEnchants" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/PaperSpigot-1.8.8-R0.1-SNAPSHOT-latest.jar" />
+    </root>
+  </artifact>
+</component>

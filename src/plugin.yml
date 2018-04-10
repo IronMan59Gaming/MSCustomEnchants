@@ -1,0 +1,8 @@
+name: MSCustomEnchants
+version: 1.0
+author: Riccardo Perego and IronMan
+description: Custom enchantment plugin for Mine Superior OP Prison.
+main: me.msce.Main
+commands:
+  test:
+    description: Test purpose.
