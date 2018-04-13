@@ -1,6 +1,7 @@
 package me.msce.commands;
 
 import me.msce.Animations;
+import me.msce.ItemToEnchant;
 import me.msce.Main;
 import net.minecraft.server.v1_8_R3.EntityArmorStand;
 import org.bukkit.Bukkit;
@@ -23,6 +24,13 @@ public class test implements CommandExecutor {
 
         Player player = (Player) sender;
 
+        Animations.x = Double.parseDouble(args[0]);
+        Animations.y = Double.parseDouble(args[1]);
+        Animations.z = Double.parseDouble(args[2]);
+
+        Material m = Material.STONE_SPADE;
+        ItemToEnchant.MaterialToItem(m).toString();
+        player.sendMessage(ItemToEnchant.MaterialToItem(m).toString());
 
 
         return false;
